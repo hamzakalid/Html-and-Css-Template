@@ -1,0 +1,610 @@
+/*start Template*/
+body{
+	font-family: "Calibri Light";
+}
+
+.counter{
+	width: 80%;
+	margin: auto;
+}
+.skilles,.features ,.resume ,.Eduction,.testimonials ,.portfolio
+,.Contact {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+
+
+/*The header*/
+.header .slider{
+	height: 600px;
+	background-color: #a29b8d;
+	background-image: url(images/service-banner-3.jpg);
+    background-size: cover;
+}
+
+.header .slider .Intro {
+	padding: 200px 0px;
+	width: 100%;
+	text-align: center;
+}
+.header .slider .Intro h2{
+    width: 520px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-weight: 900;
+    margin-top: 0px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    font-size: 50px;
+    padding: 10px 0px;
+}
+
+.header .slider .Intro button{
+    background: none;
+    width: 271px;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 20px 60px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+    outline-color: #fff;
+
+}
+
+.header .slider .Intro button:hover{
+	border: 2px solid #03a506;
+    color: #03a506;
+    outline-color: #03a506;
+
+}
+.header .navBar{
+    background-color: #8c6c3d;
+    width: auto;
+    color: white;
+	height: 53px;
+    margin: 0px;
+    padding: 1px;
+
+}
+/*the Logo*/
+.header .navBar .myLogo{
+	color: white;
+	float: left;
+	margin-top: 13px;
+    display: inline-block;
+}
+
+.header .navBar ul{
+	float: right;
+	margin: 0px;
+}
+
+.header .navBar .myLogo .me{
+	color: orange;
+}
+
+.header .navBar .myLogo .L{
+	color: #fff;
+    background: orange;
+    padding: 0px 9px;
+    margin: 5px;
+    border: 1px solid #fff;
+}
+
+
+.header .navBar ul li {
+    list-style: none;
+    float: left;
+    margin:2px 5px;
+    padding: 16.5px 3px;
+}
+
+.header .navBar ul li a:hover {
+    color: orange;
+}
+.header .navBar ul li a:active {
+    color: orange;
+}
+.header .navBar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+/*The features*/
+.features {
+	width: 100%;
+	overflow: hidden;
+}
+.features .counter div{
+    width: 30%;
+    float: left;
+    padding: 1.1111%;
+
+}
+.features .counter div h2{
+	text-transform: uppercase;
+	color: #555;
+}
+.features .counter div p{
+    line-height: 1.7;
+    color:#888;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+/*about me*/
+
+.abut-me{
+	overflow: hidden;
+	background-color: #f5e1c3;
+	height: 500px;
+}
+.abut-me .counter .image{
+	float: left;
+	width: 40%;
+}
+.abut-me .counter .image img{
+	width: 100%;
+}
+.abut-me .counter .Info{
+	float: left;
+	width: 58%;
+	padding-left: 2%;
+}
+.abut-me .counter .Info .who-I-am{
+    padding: 0px 50px 0px 0px;
+    color: #888;
+    line-height: 1.2;
+    font-weight: 900;
+}
+.abut-me .counter .Info .who-I-am h2 {
+    color: #555;
+}
+.abut-me .counter .Info .Hobbs > div{
+	float: left;
+	width: 50%;
+	min-height: 100px;
+}
+
+
+.abut-me .counter .Info .Hobbs .image{
+    float: left;
+    width: 10%;
+    padding: 22px 4px 0px 2px;
+}
+.abut-me .counter .Info .Hobbs .text{
+    float: left;
+	 width: 88%;
+}
+.abut-me .counter .Info .Hobbs .text h2{
+	color: #555;
+}
+.abut-me .counter .Info .Hobbs .text p{
+	color: #888;
+	font-weight: 900;
+}
+
+
+
+
+
+
+
+
+/*My Skilles*/
+
+
+.skilles{
+	overflow: hidden;
+}
+.skilles .counter .my-Skilles{
+	float: left;
+	width: 49%;
+
+}
+.skilles .counter .my-Skilles h2{
+	color: #555;
+}
+.skilles .counter .my-Skilles p{
+	color: #888;
+	font-weight: 900;
+}
+.skilles .counter .my-Skilles button{
+	background: none;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    border: 2px solid #03a506;
+    color: #03a506;
+    outline-color: #03a506;
+	font-weight: 900;
+}
+
+
+.skilles .counter .the-progresses{
+	width: 49%;
+	float: left;
+	margin-left: 2%;
+}
+.skilles .counter .the-progresses .Prog h3{
+	color: #555;
+	margin-bottom:  5px;
+}
+.skilles .counter .the-progresses .Prog div{
+	height: 25px;
+	margin: 5px 1px;
+	background-color: #f2f2f2
+}
+.skilles .counter .the-progresses .Prog div span{
+	color: white;
+    height: 100%;
+    background: #03a506;
+    display: block;
+    line-height: 25px;
+    font-weight: 900;
+    text-align: right;
+}
+
+
+
+
+
+
+
+/*My resume*/
+
+.resume{
+	overflow: hidden;
+	text-align: center;
+	background-color: #f5e1c3;
+}
+.resume .counter .my-Resume{
+	margin: auto;
+	width: 49%;
+}
+.resume .counter .my-Resume button{
+	background: none;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    border: 2px solid #03a506;
+    color: #03a506;
+    outline-color: #03a506;
+	font-weight: 900;
+}
+
+.resume .counter .my-Resume h2{
+	color: #555;
+}
+.resume .counter .my-Resume p{
+	color: #888;
+	font-weight: 900;
+	line-height: 1.7;
+}
+
+
+
+
+
+
+/*My Eduction*/
+.clearFix{clear: both;}
+
+.Eduction{
+	overflow: hidden;
+}
+.Eduction .counter .Min .my-Eduction{
+	float: left;
+	width: 49%;
+
+}
+.Eduction .counter .Min .the-Eduction{
+	width: 49%;
+	float: left;
+	margin-left: 2%;
+}
+.Eduction .counter .Min .my-Eduction h2{
+	color: #555;
+}
+
+.Eduction .counter .Min .my-Eduction p{
+	color: #888;
+	font-weight: 900;
+	line-height: 1.7;
+}
+.Eduction .counter .Min .the-Eduction h2{
+	color: #555;
+}
+.Eduction .counter .Min .the-Eduction p{
+	color: #888;
+	font-weight: 900;
+	line-height: 1.7;
+}
+.Eduction .counter .Min .the-Eduction div span{
+	color: #888;
+	font-weight: 700;
+}
+
+
+.Eduction .counter .Min .the-Eduction span.T {
+    background-color: #03a506;
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 8px 0px;
+    color: #fff;
+}
+
+.Eduction .counter .Min .the-Eduction  hr{
+	background-color: #aaa;
+	border: 0px;
+	height: 1px;
+}
+
+
+
+
+
+
+
+/*Work Experience*/
+
+.Eduction .counter .Min .Work-Experience{
+	float: left;
+	width: 49%;
+
+}
+.Eduction .counter .Min .the-Experience{
+	width: 49%;
+	float: left;
+	margin-left: 2%;
+}
+
+.Eduction .counter .Min .Work-Experience h2{
+	color: #555;
+}
+
+.Eduction .counter .Min .Work-Experience p{
+	color: #888;
+	font-weight: 900;
+	line-height: 1.7;
+}
+.Eduction .counter .Min .the-Experience h2{
+	color: #555;
+}
+.Eduction .counter .Min .the-Experience p{
+	color: #888;
+	font-weight: 900;
+	line-height: 1.7;
+}
+.Eduction .counter .Min .the-Experience div span{
+	color: #888;
+	font-weight: 700;
+}
+
+
+.Eduction .counter .Min .the-Experience span.T {
+    background-color: #03a506;
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 8px 0px;
+    color: #fff;
+}
+
+.Eduction .counter .Min .the-Experience  hr{
+	background-color: #aaa;
+	border: 0px;
+	height: 1px;
+}
+
+
+
+
+
+
+
+/*My testimonials*/
+
+.testimonials{
+	overflow: hidden;
+	text-align: center;
+	background-color: #f5e1c3;
+}
+.testimonials .counter .my-Testimonials{
+	width: 49%;
+	margin: auto;
+}
+.testimonials .counter .my-Testimonials h2,
+.testimonials .counter .my-Testimonials h1{
+	color: #555;
+	text-transform: capitalize;
+
+}
+
+.testimonials .counter .my-Testimonials p{
+	color: #888;
+	font-weight: 900;
+	line-height: 1.7;
+}
+
+
+
+
+
+/*The portfolio*/
+
+.portfolio{
+	overflow: hidden;
+	text-align: center;
+}
+.portfolio .counter .my-portfolio{
+	width: 49%;
+	margin: auto;
+}
+.portfolio .counter .my-portfolio h2{
+	color: #555;
+}
+
+.portfolio .counter .my-portfolio p{
+	color: #888;
+	font-weight: 900;
+	line-height: 1.7;
+}
+
+.portfolio .counter .images > div{
+	background-color: #f5e1c3;
+	width: 30%;
+	height: 300px;
+	margin: 2% 1.1111%;
+	float: left;
+}
+
+.portfolio .counter .images div img{
+	width: 100%;
+	height:100%;
+	background-color: #eee;
+	padding: 2px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+/*The Contact*/
+
+.Contact{
+	overflow: hidden;
+	background-color: #f1bd71;
+}
+.Contact .counter .Info,
+.Contact .counter .form{
+	width: 48%;
+	float: left;
+}
+.Contact .counter .Info h2{
+	color: #555;
+}
+
+.Contact .counter .Info p{
+	color: #888;
+	font-weight: 900;
+	line-height: 1.7;
+}
+
+.Contact .counter .Info .the-adress {
+	padding: 10px 0px;
+	margin-top: 20px;
+}
+.Contact .counter .Info .the-adress p{
+	margin-top:  10px;
+	color: #888;
+	font-weight: 500;
+	line-height: .2;
+}
+.Contact .counter .Info .the-Info{
+	margin-top: 10px;
+}
+.Contact .counter .Info .the-Info p{
+	color: #888;
+	line-height: 0.2;
+	font-weight: 500;
+}
+.Contact .counter .form input[type="text"] {
+    background: #eab363;
+    border: none;
+    display: block;
+    padding: 9px;
+	outline-color:  #eab363;
+    width: 100%;
+    color: #Fff;
+    font-weight: 700;
+}
+.Contact .counter .form textarea{
+    background: #eab363;
+    border: none;
+    display: block;
+    padding: 9px;
+    max-width: 100%;
+    max-height: 200px;
+    min-width: 100%;
+    min-height: 200px;
+	outline-color:  #eab363;
+    color: #Fff;
+    font-weight: 700;
+}
+.Contact .counter .form input[type="submit"] {
+    background: none;
+    border: 2px solid #fff;
+    display: block;
+    margin-top: 10px;
+    padding: 9px;
+    width: 50%;
+    color: #fff;
+    outline-color: #fff;
+    font-weight: 700;
+}
+
+.Contact .counter .form input[type="submit"]:hover {
+    border: 2px solid #03a506;
+    color:#03a506;
+    outline-color: #03a506;
+}
+
+.Contact .counter .form label{
+    padding: 5px 0px;
+    margin-top: 10px;
+    display: inline-block;
+    color: #555;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+/*The Footer*/
+.Footer{
+	text-align: center;
+    background: #8c6c3d;
+    color: white;
+    height: 50px;
+    font-weight: 900;
+    padding-top: 20px;
+	padding-bottom: 20px;
+}
+.Footer .counter .the-copyright{
+	float: left;	
+}
+.Footer .counter .my-Linke{
+	float: right;
+	padding: 7.5px;	
+}
+.Footer .counter .my-Linke ul{
+	width: 100%;
+	display: inline;
+	height:100%;
+}
+.Footer .counter .my-Linke ul > li{
+	background: #ddd;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	float: left;	
+	margin: 2px 2px;
+	list-style: none;
+}
